@@ -1,0 +1,33 @@
+/*reset*/
+html,body{width:100%;font-family: "微软雅黑";background: #fff;overflow-x: hidden;}
+h1,h2,h3,h4,h5,h6{font-size: 16px;font-weight: normal;}
+ul{list-style: none;padding: 0;margin:0;}
+*{padding:0;margin:0;}
+img{vertical-align: top;border:none;}
+a{text-decoration: none;display: inline-block;*display: inline;color: #888994;}
+textarea,input{
+    outline:none;
+    border: none;
+    text-align:center;
+}/*background: url(../img/opacity.png) 0 0 repeat;}*/ /*背景图部分是为了解决ie7.8下定位的输入层不能控制层级的bug*/
+.clearfix:after{display: block;content: "";clear:both;}
+.clear{clear: both;}
+
+input:clear{display:none;}/*去掉ie下input框的清除按钮*/
+.hide{overflow: hidden;}
+.none{display: none;}
+.wrap{
+    position: relative;width: 100%;
+}
+.w {
+    width: 1024px;
+    margin: 0 auto;
+}
+html {
+    min-width: 1024px;
+}
+
+body{
+    overflow: hidden;
+}
+

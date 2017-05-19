@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{margin:0;padding:0;}
+.team-content{
+    width: 1120px;
+    position: relative;
+    margin: 0 auto;
+}
+.team-content ul{
+    list-style: none;
+}
+.team-content ul li{
+    float: left;
+    margin: 0 5px 5px 0;
+    position: relative;
+    width: 135px;
+    height: 135px;
+}
+.team-content ul li i{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 105px;
+    height: 105px;
+    background: url(../img/team-images/hq_zixun.png) no-repeat 0 0;
+    display: none;
+}
+.team-content ul li i span.name{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    font-family: "微软雅黑";
+    top:55px;
+    left: 5px;
+
+}
+.team-content ul li i span.position{
+    color: white;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    position: absolute;
+    top:75px;
+    left: 5px;
+
+}
+.team-content ul li s{
+    position: absolute;
+    top:5px;
+    right:5px;
+    width: 28px;
+    height: 29px;
+    background: url(../img/team-images/hq_zixun1.png) no-repeat 0 0;
+    display: none;
+}
+.team-content ul li img{
+    width: 135px;
+    height: 135px;
+}
+.team-content span{
+    position: absolute;
+    bottom: 5px;
+    left: 420px;
+}
+.team-content span img{
+    width: 135px;
+    height: 135px;
+}
+.team-content h2 {
+    text-align: center;
+    height: 37px;
+    width: 0px;
+    background: url("../img/team-images/team_tti.png") no-repeat;
+    margin: 30px auto 50px;
+}
+.team-content #ul1{
+    position: relative;
+    left: 1300px;
+}
+.team-content #ul2{
+    position: relative;
+    left: -1300px;
+}
+.team-content #ul3{
+    position: relative;
+    left: 1300px;
+}

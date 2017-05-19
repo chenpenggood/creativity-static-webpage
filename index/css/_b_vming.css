@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+.main {
+    background-color: #48c7ea;
+}
+.main .w {
+    position:relative;
+    height: 716px;
+}
+
+/*里面的所有div都是定位且高度固定的*/
+.main>.w>div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/*底层，位置固定*/
+.main div.bg{
+    top: 20%;
+    left: 10%;
+}
+.main div.bg img{
+    height: 60%;
+    width: 80%;
+}
+/*第一层*/
+.main div.delay1 {
+    top: 30%;
+    left: 7.5%;
+}
+.main div.delay1 img{
+    height: 45%;
+    width: 85%;
+    z-index: 1;
+}
+/*第二层*/
+.main div.delay2 {
+    top: 30%;
+    left: 15%;
+}
+.main div.delay2 img{
+    height: 45%;
+    width: 75%;
+    z-index: 2;
+}
+/*第三层*/
+.main div.delay3 {
+    top: 35%;
+    left: 25%;
+}
+.main div.delay3 img{
+    height: 20%;
+    width: 50%;
+    z-index: 3;
+}
+/*第四层*/
+.main div.delay4 {
+    top: 20%;
+    left: -5%;
+}
+.main div.delay4 img{
+    height: 70%;
+    width: 110%;
+    z-index: 4;
+}
+/*第五层*/
+.main div.delay5 {
+    top: 20%;
+    left: -5%;
+}
+.main div.delay5 img{
+    height: 80%;
+    width: 100%;
+    z-index: 5;
+}

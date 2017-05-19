@@ -1,0 +1,239 @@
+﻿@charset "UTF-8";
+/*.banner {*/
+/*width: 100%;*/
+/*height: 598px;*/
+/*position: relative;*/
+/*background: url(../img/h_bg.jpg);*/
+/*}*/
+
+.banner img {
+    position: absolute;
+    left: -19%;
+}
+
+.banner .banner_con {
+    position: absolute;
+    overflow: hidden;
+    left: 8%;
+    bottom:8%;
+    height: 408px;
+    background: url(../img/h_ban_nr.png) no-repeat 0 0;
+
+}
+
+.cb_context {
+    margin: 0 auto;
+    padding-top: 57px;
+    width: 605px;
+}
+
+.cb_context .up_context {
+    height: 63px;
+    line-height: 63px;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.cb_context .up_context .sp {
+    float: left;
+    color: #fff;
+    padding-left: 55px;
+}
+
+.cb_context .up_context .sa {
+    float: right;
+    color: #21c2f8;
+    padding-right: 65px;
+}
+
+.cb_context .middle_context,.bottom_context {
+    height: 63px;
+    line-height:63px;
+    text-align: center;
+    color: #fff;
+    margin-top:23px;
+    font-size:30px;
+}
+.bottom_context{
+    margin-top:15px;
+}
+
+.banner-btn{
+    width:244px;
+    height: 87px;
+    background:url(../img/h_ban_an.png) no-repeat;
+    margin-top:50px;
+    line-height: 60px;
+}
+.banner-btn a.btn-txt{
+    float:right;
+    color:#fff;
+    font-size:20px;
+    padding-right:36px;
+
+}
+
+/*注意事项和之前一样*/
+/*case开始*/
+
+.case {
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+
+.case .title {
+    position: relative;
+    line-height: 30px;
+    text-align: center;
+    font-size: 28px;
+    color: #ccc;
+}
+
+.title span {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 50px;
+    width: 80px;
+    height: 3px;
+    background: #1ba8ed;
+
+}
+
+.case_content {
+    position: relative;
+    padding-top: 80px;
+}
+
+.content_top {
+    position: relative;
+    height: 45px;
+
+}
+
+.circle {
+    position: absolute;
+    left: 43%;
+    top: 22px;
+}
+
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #000;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.circle li.hover {
+    background-color: #21c2f8;
+}
+
+.btn_left, .btn_right {
+    position: absolute;
+    left: 33%;
+    top: 14px;
+    width: 12px;
+    height: 22px;
+    cursor: pointer;
+    background: url(../img/case_l.png);
+}
+
+.btn_right {
+    background: url(../img/case_r.png);
+    left: 67%;
+}
+/*轮播图片的样式开始*/
+.content_banner {
+    margin-top: 10px;
+
+}
+
+.main_content {
+    position: relative;
+    height: 597px;
+    overflow: hidden;
+}
+
+.content_banner .picture {
+    position: absolute;
+    height: 597px;
+    overflow: hidden;
+    width: 1000%;
+}
+
+.picture ul.case_list {
+    float: left;
+}
+
+.picture .case_list li {
+    float: left;
+    width: 321px;
+    height: 592px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-bottom: 5px solid #21c2f8;
+}
+
+.picture .case_list li .up_con {
+    position:relative;
+    height: 492px;
+}
+.picture .case_list li .up_con .cb_img{
+    width:321px;
+}
+
+.picture .case_list li .code {
+    position:absolute;
+    top:0;
+    width: 321px;
+    /*height:492px;*/
+    height: 0;
+    opacity: 0.8;
+    background: #000;
+    text-align: center;
+    overflow: hidden;
+}
+
+.picture .case_list li .code img {
+    margin-top: 200px;
+}
+
+.case_down {
+    padding-left: 8px;
+    position: relative;
+    background:#2f383d;
+}
+
+.case_down em {
+    position: absolute;
+    z-index: 22;
+    width: 0;
+    height: 0;
+    left: 15px;
+    top: -16px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid #2f383d;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.case_down .pf {
+    line-height: 35px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.case_down .pd {
+    padding-top: 15px;
+    height: 50px;
+
+}
+
+/*轮播图片样式结束*/
+
+/*注意事项和之前一样*/
+

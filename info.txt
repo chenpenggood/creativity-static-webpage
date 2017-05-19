@@ -1,0 +1,13 @@
+组员（按座位排序）：
+
+许世海	郭峰	李梦发	黄曦文	陈彪
+
+谢世豪	梁风珠	崔东	马小兵	岑成威
+
+
+
+
+
+浏览器代码支持：
+
+--enable-webgl --ignore-gpu-blacklist --allow-file-access-from-files

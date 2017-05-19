@@ -1,0 +1,83 @@
+﻿@charset "UTF-8";
+
+/* warp部分开始 */
+.warp .emailIcon1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 19px;
+    background: url("../img/ico.png") no-repeat 0 -1123px;
+    /*border-radius: 2px;*/
+}
+.warp .emailIcon3 {
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    width: 19px;
+    height: 20px;
+    background: url("../img/ico.png") no-repeat 0 -1160px;
+    /*border-radius: 2px;*/
+}
+.warp .emailIcon2 {
+    position: absolute;
+    left: -6px;
+    top: -2px;
+    width: 20px;
+    height: 26px;
+    background: url("../img/ico.png") no-repeat 0 -1200px;
+    /*border-radius: 2px;*/
+}
+.warp .hd_warp_l span {
+    color: #888994;
+    padding-left: 28px;
+    line-height: 40px;
+    position: relative;
+}
+.warp .hd_warp_r {
+    height: 40px;
+}
+.warp .hd_warp_r span {
+    padding-left: 24px;
+    line-height: 40px;
+    position: relative;
+}
+.warp .hd_warp_r .phoneNum {
+    font-size: 16px;
+    font-weight: bold;
+    color: #46c5e8;
+}
+/* warp部分结束 */
+
+
+/* logo部分开始 */
+.log .log_l b {
+    display: inline-block;
+    width: 155px;
+    height: 41px;
+    background: url("../img/logo.png") no-repeat;
+    margin-top: 19px;
+}
+.log .log_r ul {
+    position: relative;
+}
+.log .log_r ul li {
+    float: left;
+    height: 88px;
+    line-height: 88px;
+    font-size: 14px;
+}
+.log .log_r ul li a {
+    text-align: center;
+    width: 100px;
+    font-size: 16px;
+}
+.log .log_r ul .blueLine {
+    width: 100px;
+    height: 4px;
+    background-color: deepskyblue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* logo部分结束 */

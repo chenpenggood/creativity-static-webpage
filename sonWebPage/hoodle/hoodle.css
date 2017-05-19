@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+p {
+    /*margin: 0 auto;*/
+    width: 290px;
+    /*height: 300px;*/
+    /*border: 1px solid #000;*/
+    font: 14px "microsoft yahei";
+    /*float: left;*/
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+p span{
+    color: red;
+}
+body{
+    position: relative;;}
+img{
+    /*float: left;*/
+    width: 400px;
+    position: absolute;
+    left:290px;
+}

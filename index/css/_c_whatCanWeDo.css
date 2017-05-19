@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*//gf版*/
+.conBig .columu .w {
+    text-align: center;
+    font: 700 92px/184px "黑体";
+    color: #fff;
+}
+
+
+.conBig .content {
+    background-image: url("../img/WhatCanWeDo/ml2_bg.jpg");
+}
+.conBig .content .w {
+    border: 1px solid #fff;
+    position: relative;
+}
+.conBig .content .w div {
+    position: absolute;
+}
+.conBig .content .w div.gfL {
+    left:0;
+}
+.conBig .content .w div.gfM {
+    left:350px;
+}
+.conBig .content .w div.gfR {
+    right:0;
+}
+
+.conBig .content .w span {
+    position: absolute;
+    top:40px;
+}
+.conBig .content .w span.gfA {
+    left:320px;
+}
+.conBig .content .w span.gfS {
+    left:670px;
+}
+.conBig .content .w span.gfF {
+    left:520px;
+}
+
+
+
+/*//cd版*/
+
+.con_foot .w {
+    position: relative;
+}
+.con_foot_left_cd {
+    position: absolute;
+    left: -80px;
+    top:-215px;
+    z-index: 999;
+}
+.con_foot_center_cd {
+    position: absolute;
+    left: 285px;
+    top:-300px;
+}
+.con_foot_right_cd {
+    position: absolute;
+    right: -80px;
+    top:-177px;
+    z-index: 999;
+}
+.leftShadow_cd {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 18px;
+    box-shadow: 10px 10px 30px #222;
+    -webkit-box-shadow: 10px 10px 30px #222;
+    -moz-box-shadow: 10px 10px 30px #222;
+    -ms-box-shadow: 10px 10px 30px #222;
+    -o-box-shadow: 10px 10px 30px #222;
+}
+.rightShadow_cd {
+    width: 140%;
+    height: 15%;
+    position: absolute;
+    bottom: -8%;
+    left: -20%;
+    z-index: -1;
+    background: -webkit-radial-gradient(rgba(0,0,0,.8) 0,rgba(10,10,10,.3) 50%,rgba(16,16,16,0) 70%);
+    background:radial-gradient(rgba(0,0,0,.8) 0,rgba(10,10,10,.3) 50%,rgba(16,16,16,0) 70%);
+    background: -moz-radial-gradient(rgba(0,0,0,.8) 0,rgba(10,10,10,.3) 50%,rgba(16,16,16,0) 70%);
+    background: -ms-radial-gradient(rgba(0,0,0,.8) 0,rgba(10,10,10,.3) 50%,rgba(16,16,16,0) 70%);
+    background: -o-radial-gradient(rgba(0,0,0,.8) 0,rgba(10,10,10,.3) 50%,rgba(16,16,16,0) 70%);
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.foot .tck-box{
+    width: 340px;
+    background: #007aff;
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    border-radius: 5px;
+}
+.foot .tck-box a{
+    display: block;
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 45px;
+    padding-left: 55px;
+    border-radius: 5px;
+    background: url("../img/yb_email-i.png")no-repeat left -6px;
+}
+.foot .tck-box1{
+    width: 340px;
+    height: 520px;
+    background: #007aff;
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    display: none;
+}
+.tck-box1 .help{
+    width: 325px;
+    height: 50px;
+    background: #f2f3f5;
+    font-size: 16px;
+    line-height: 25px;
+    padding:10px 0px 10px 15px;
+}
+.tck-box1 .help-bottom{
+    height: 30px;
+    font-size: 16px;
+    /*padding-top: 10px;*/
+    line-height: 30px;
+    padding-left: 15px;
+    background: #f2f3f5;
+    color: #434446;
+}
+.tck-box1 .input1{
+    width: 323px;
+    height: 40px;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #acacac;
+    border: 1px solid #eaebed;
+}
+.tck-box1 .input2{
+    width: 323px;
+    height: 55px;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #acacac;
+    border: 1px solid #eaebed;
+}
+.tck-box1 .input3{
+    width: 300px;
+    height: 30px;
+    background:#007aff;
+    border-radius: 7px;
+    margin-top: 35px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.tck-box1 .buttom-box{
+    height: 120px;
+    background: #f2f3f5 url("../img/yb_email-img.png") no-repeat center bottom;
+}
+.tck-box1 .cursor--{
+    cursor: pointer;
+    width: 340px;
+    height: 60px;
+}

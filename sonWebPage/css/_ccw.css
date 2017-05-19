@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/*注意事项和之前一样*/
+/*微信部分开始*/
+div.provide{
+   width:100%;
+    color:#828282;
+    background: #eff4f7;
+}
+
+div.provide .ccw_provide_center{
+    width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 58px 0;
+}
+div.provide .ccw_provide_center .ccw_title{
+    line-height: 30px;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    color: #828282;
+}
+div.provide .ccw_provide_center .ccw_title span{
+    width: 72px;
+    height: 3px;
+    position: absolute;
+    background-color: #1ba8ed;
+    left: 50%;
+    margin-left: -36px;
+    bottom: -30px;
+}
+div.provide .ccw_provide_center .ccw_vmhudong{
+    height: 75px;
+    line-height: 75px;
+    font-size: 18px;
+    padding-top: 20px;
+    color: #8596a8;
+}
+div.provide .ccw_provide_center ul li{
+    width: 180.1px;
+    float: left;
+    /*background-color: red;*/
+    margin-left: 30px;
+}
+div.provide .ccw_provide_center ul li.ccw_li1{
+    margin-left: 0px;
+}
+div.provide .ccw_provide_center ul li a{
+    display: block;
+    width: 100%;
+}
+div.provide .ccw_provide_center ul li a span{
+    display: block;
+    font-size: 14px;
+    line-height: 26px;
+}
+div.provide .ccw_provide_center ul .ccw_ico_pic{
+    width: 120px;
+    height: 125px;
+    margin: 0 30px;
+    background: url(../img/ico.png) no-repeat;
+}
+div.provide .ccw_provide_center ul .ccw_li1 .ccw_ico_pic{
+    background-position: center 10px;
+}
+div.provide .ccw_provide_center ul .ccw_li2 .ccw_ico_pic{
+    background-position: center -117px;
+}
+div.provide .ccw_provide_center ul .ccw_li3 .ccw_ico_pic{
+    background-position: center -244px;
+}
+div.provide .ccw_provide_center ul .ccw_li4 .ccw_ico_pic{
+    background-position: center -374px;
+}
+div.provide .ccw_provide_center ul .ccw_li5 .ccw_ico_pic{
+    background-position: center -494px;
+}
+/*微信部分结束*/
+
+
+
+/*APP部分开始*/
+.whyChose{
+    width: 100%;
+    height: 654px;
+    background: #22223a;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.whyChose .ccw_content2_bg{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -950px;
+    z-index: 1;
+    height: 654px;
+}
+.whyChose .ccw_content2_center{
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 67px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.whyChose div.ccw_content2_center .ccw_title_why{
+    width: 369px;
+}
+.whyChose div.ccw_content2_center .ccw_title_why img{
+    display: block;
+    width: 100%;
+}
+
+.whyChose div.ccw_content2_center .ccw_main{
+    width: 1024px;
+    margin-top: 85px;
+}
+.whyChose div.ccw_content2_center .ccw_main div{
+    width: 200px;
+    float: left;
+}
+.whyChose div.ccw_content2_center .ccw_main div img{
+    display: block;
+    vertical-align: top;
+}
+.whyChose div.ccw_content2_center .ccw_main div .many{
+    font-size: 20px;
+    color: #22b4e7;
+    line-height: 100%;
+    margin-top: 30px;
+}
+.whyChose div.ccw_content2_center .ccw_main .ml{
+    margin-left: 70px;
+}
+.whyChose div.ccw_content2_center .ccw_main .txt{
+font-size: 14px;
+color: #7da1c8;
+line-height: 28px;
+margin-top: 8px;
+}

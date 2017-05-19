@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+.bgShapeBoth {
+    background-image: url(../img/teamL.png),url(../img/teamR.png);
+    background-position: left bottom,top right;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 0% 0%,0% 0%;
+    transition: background-size .4s;
+}
+.bgShapeBoth:hover {
+    background-size: 100% 100%,22% 22%;
+}
+.bgShapeBoth.ready{
+    background-size: 100% 100%,22% 22%;
+}
+.bgLineBlue{
+    background-color: #515151;
+    background-image: url(../img/bgLineBlue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size .4s;
+}
+.bgLineBlue:hover{
+    color: white;
+    background-size: 120% 100%;
+}
+.bgLineBlue.ready{
+    color: white;
+    background-size: 120% 100%;
+}
+.rotatoFull{
+    background:url("../img/rotatoFull.png");
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transition: transform .4s;
+    width:285px;
+    height: 285px;
+}
+.rotatoFull:hover{
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.rotatoFull.ready {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.rotatoHalf{
+    background:url("../img/rotatoHalf.png");
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transition: transform .4s;
+    width:280px;
+    height: 280px;
+}
+.rotatoHalf:hover{
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+.rotatoHalf.ready {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+.zoomOutX {
+    transform:rotateY(90deg) ;
+    -webkit-transform:rotateY(90deg);
+    transition-duration:.5s;
+    -webkit-transition-duration:.5s;
+}
+.zoomOutY {
+    transform:rotateX(90deg) ;
+    -webkit-transform:rotateX(90deg);
+    transition-duration:.5s;
+    -webkit-transition-duration:.5s;
+}
+.zoomTop {
+    transform-origin:top;
+    -webkit-transform-origin:top;
+}
+.zoomLeft {
+    transform-origin:left;
+    -webkit-transform-origin:left;
+}
+.zoomRight {
+    transform-origin:right;
+    -webkit-transform-origin:right;
+}
+.zoomBottom {
+    transform-origin:bottom;
+    -webkit-transform-origin:bottom;
+}
+.zoomIn {
+transform:rotateY(0deg) ;
+-webkit-transform:rotateY(0deg);
+transform:rotateX(0deg) ;
+-webkit-transform:rotateX(0deg);
+transition-duration:.5s;
+-webkit-transition-duration:.5s;
+}

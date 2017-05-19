@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*注意事项和之前一样*/
+.choice {
+    background: url(../img/banner4.jpg) no-repeat top center;
+}
+.choice .w{
+    padding-top:100px;
+}
+.choice h2{
+    font-size: 28px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.choice h2 span{
+    position: absolute;
+    width: 72px;
+    height: 3px;
+    background: #1ba8ed;
+    bottom: -30px;
+    left: 50%;
+    margin-left:-36px;
+}
+.choice ul{
+    margin-top:88px;
+}
+.choice ul li{
+    height: 55px;
+    padding-left: 85px;
+    color: #fff;
+    margin-top:15px;
+    float: left;
+}
+.choice ul li p{
+    margin-top:20px;
+    line-height: 18px;
+    color: #8596A8;
+}
+.choice ul li.li_1{
+    background: url("../img/ico2.png") no-repeat 0 0;
+}
+.choice ul li.li_2{
+    background: url("../img/ico2.png") no-repeat 0 -210px;
+    margin-left: 60px;
+}
+.choice ul li.li_3{
+    background: url("../img/ico2.png") no-repeat 0 -440px;
+    margin-left: 60px;
+}
+
+

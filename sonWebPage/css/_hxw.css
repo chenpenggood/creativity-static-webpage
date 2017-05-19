@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* content总体内容 B */
+.content {
+
+}
+.warp .emailIcon1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 16px;
+    background: url("../img/ico.png") no-repeat 0 -1123px;
+    /*border-radius: 2px;*/
+}
+.warp .emailIcon3 {
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    width: 19px;
+    height: 20px;
+    background: url("../img/ico.png") no-repeat 0 -1160px;
+    /*border-radius: 2px;*/
+}
+.warp .emailIcon2 {
+    position: absolute;
+    left: -6px;
+    top: -2px;
+    width: 20px;
+    height: 26px;
+    background: url("../img/ico.png") no-repeat 0 -1200px;
+    /*border-radius: 2px;*/
+}
+.warp .hd_warp_l span {
+    color: #888994;
+    padding-left: 28px;
+    line-height: 40px;
+    position: relative;
+}
+    /* 五个定位图标 B */
+.content .c_icon1 {
+    position: absolute;
+    top: 194px;
+    left: 4px;
+    height: 85px;
+    width: 85px;
+    background: url("../img/hd_s2_icon.png") no-repeat 0 0;
+}
+.content .c_icon2 {
+    position: absolute;
+    top: 70px;
+    left: 124px;
+    height: 105px;
+    width: 100px;
+    background: url("../img/hd_s2_icon.png") no-repeat 0 -85px;
+}
+.content .c_icon3 {
+    position: absolute;
+    top: 196px;
+    right: 176px;
+    height: 80px;
+    width: 80px;
+    background: url("../img/hd_s2_icon.png") no-repeat 0 -190px;
+}
+.content .c_icon4 {
+    position: absolute;
+    top: 60px;
+    right: 18px;
+    height: 74px;
+    width: 74px;
+    background: url("../img/hd_s2_icon.png") no-repeat 0 -270px;
+}
+.content .c_icon5 {
+    position: absolute;
+    top: 238px;
+    right: -10px;
+    height: 116px;
+    width: 116px;
+    background: url("../img/hd_s2_icon.png") no-repeat 0 -344px;
+}
+    /* 五个定位图标 E */
+
+    /* 双引号 B */
+.content .c_quote1{
+    position: absolute;
+    top: 126px;
+    left: 286px;
+    width: 36px;
+    height: 30px;
+    background: url("../img/hd_s2_icon.png") no-repeat -7px -468px;
+}
+.content .c_quote2{
+    position: absolute;
+    top: 160px;
+    right: 286px;
+    width: 36px;
+    height: 30px;
+    background: url("../img/hd_s2_icon.png") no-repeat -7px -513px;
+}
+    /* 双引号 E */
+
+    /* 文字和ul的那个大盒子 B */
+.content .wordBox {
+    padding-top: 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.content .wordBox h2 {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+    color: #828282;
+}
+.content .wordBox h2 .blueLine {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 72px;
+    height: 3px;
+    margin-left: -30px;
+    background-color: deepskyblue;
+}
+.content .wordBox p {
+    text-align: center;
+    padding-top: 60px;
+    color: #8596a8;
+    font-size: 18px;
+    line-height: 28px;
+}
+.closeX {
+    position: absolute;
+    top: 132px;
+    left: 50%;
+    margin-left: -27px;
+    width: 54px;
+    height: 54px;
+    background: url("../img/hd_s2_icon.png") no-repeat 0 -551px;
+}
+.content .wordBox .box_ul {
+    width: 646px;
+    position: absolute;
+    top: 310px;
+    left: 378px;
+    text-align: left;
+    color: #8596a8;
+    font-size: 16px;
+}
+.content .wordBox .box_ul li {
+    padding-left: 76px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.content .wordBox .box_ul .liArr1 {
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 20px;*/
+    /*top: 450px;*/
+    position: relative;
+    line-height: 50px;
+    background: url("../img/ico.png") no-repeat -2px -653px;
+}
+.content .wordBox .box_ul .liArr2 {
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 90px;*/
+    /*top: 450px;*/
+    position: relative;
+    line-height: 50px;
+    background: url("../img/ico.png") no-repeat -2px -723px;
+}
+.content .wordBox .box_ul .liArr3 {
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 160px;*/
+    /*top: 450px;*/
+    position: relative;
+    line-height: 50px;
+    background: url("../img/ico.png") no-repeat -2px -798px;
+}
+.content .wordBox .box_ul .liArr4 {
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 230px;*/
+    /*top: 450px;*/
+    position: relative;
+    line-height: 25px;
+    background: url("../img/ico.png") no-repeat -2px -873px;
+}
+.content .wordBox h6 {
+    color: #8596a8;
+    font: 40px/70px 'microsoft yahei';
+}
+.content .showPhone {
+    position: absolute;
+    left: 0;
+    bottom: -382px;
+}
+.content .h667 {
+    height: 667px;
+    overflow: hidden;
+    position: relative;
+}
+    /* 文字和ul的那个大盒子 E */
+
+
+/* content总体内容 E */
+
+

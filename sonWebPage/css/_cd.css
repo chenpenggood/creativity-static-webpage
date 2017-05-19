@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*注意事项和之前一样*/
+
+.content .main {
+  width: 1024px;
+  height: 627px;
+  margin: 0 auto;
+  /*background-color: hotpink;*/
+  padding-top: 55px;
+}
+.content .content_circle {
+  width: 1024px;
+  height: 280px;
+  margin-top: 85px;
+  position: relative;
+  bottom: -120px;
+}
+.content .content_circle div {
+  width: 260px;
+  height: 260px;
+  background-color: #3E3D5C;
+  float: left;
+  border-radius: 260px;
+  position: relative;
+}
+.content .content_circle b {
+  position: absolute;
+  display:inline-block;
+  width: 280px;
+  height: 280px;
+  background: url("../img/con1_turn.png") no-repeat;
+  left: -10px;
+  top:-10px;
+  z-index: 1;
+}
+.content .content_circle .cd_left {
+  margin-left: 20px;
+}
+.content .content_circle .cd_center {
+  margin:0 100px;
+}
+.content .content_circle img {
+  position: absolute;
+  left: 50%;
+}
+.content .content_circle .cd_left img {
+  margin-left: -44px;
+  margin-top: 29px;
+}
+.content .content_circle .cd_center img {
+  margin-left: -44px;
+  margin-top: 29px;
+}
+.content .content_circle .cd_right img {
+  margin-left: -55px;
+  margin-top: 40px;
+}
+.content .content_circle p {
+  position: absolute;
+  color: #21c2f8;
+  font-size: 20px;
+  top: 168px;
+}
+.content .content_circle .ppx1 {
+   left:50px;
+}
+.content .content_circle .ppx2 {
+  left:25px;
+}
+.content .content_circle .ppx3 {
+  left:55px;
+}
+.content .content_circle p.p2 {
+  top: 197px;
+  left: 90px;
+}

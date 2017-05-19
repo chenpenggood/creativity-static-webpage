@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+.links {
+    overflow: hidden;
+}
+
+.links .links-head {
+    height: 39px;
+    background: url(../img/yb_sever_tit.png) no-repeat center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+.links-con {
+    position: relative;
+    height: 223px;
+
+}
+
+
+.links .arrow a {
+    position: absolute;
+    width: 160px;
+    height: 223px;
+
+}
+
+.arrow-left {
+    left: 0;
+    background: url(../img/yb_scrol_btn.png) no-repeat 0 -12px;
+}
+
+.arrow-right {
+    right: 0;
+    background: url(../img/yb_scrol_btn.png) no-repeat -160px -236px;
+}
+
+.arrow-left1{
+    left:0;
+    background: url(../img/yb_scrol_btn.png) no-repeat 0 -236px;
+}
+
+.arrow-right1{
+    right:0;
+    background: url(../img/yb_scrol_btn.png) no-repeat -160px -12px;
+}
+
+
+.links-con .content-list {
+    position:relative;
+    height: 223px;
+    width:1048px;
+    overflow:hidden;
+
+}
+
+.links-con .content-list .ul-list{
+    position:absolute;
+    height: 223px;
+    width:500%;
+}
+
+.links-con .content-list .ul-list li{
+    float:left;
+    margin-right:40px;
+    width:222px;
+    height:222px;
+    background:url(../img/yb_sevshow_bg.png) no-repeat;
+}
+.links-con .content-list .ul-list li a{
+    display:inline-block;
+    width:222px;
+    height:222px;
+
+}
+/*左侧楼梯开始*/
+.l-scroll{
+    position:fixed;
+    left:-100px;
+    top:50%;
+    width:100px;
+    border-radius:5px;
+    margin-top:-180px;
+    /*background: #1286b5;*/
+    display:none;
+    z-index:1000;
+    /*border: 1px solid #fff;*/
+
+}
+.l-scroll .scroll-con li{
+    margin-bottom: 8px;
+    height: 60px;
+    line-height: 60px;
+    border-radius:5px;
+    text-align: center;
+    background:url(../img/l_sroll.png) no-repeat;
+    cursor:pointer;
+}
+.l-scroll .scroll-con li.toUp{
+    width: 150px;
+
+}
+
+.l-scroll .scroll-con li.toUp a{
+    float:left;
+    margin-left:18px;
+}
+
+.l-scroll .scroll-con li.toUp img{
+    float:right;
+    margin-left:10px;
+
+}
+/*.l-scroll .scroll-con li:hover{*/
+/*background:#1286b5;*/
+/*}*/
+.l-scroll .scroll-con>li:nth-child(6){
+    margin-bottom:0;
+}
+
+.l-scroll .scroll-con li a{
+    color:#fff;
+    font-weight: 600;
+    font-size:12px;
+}
+
+/*左侧楼梯结束*/

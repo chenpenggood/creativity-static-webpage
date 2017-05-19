@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+/*注意事项和之前一样*/
+
+/*qr_code部分开始*/
+.qr_code {
+    width: 100%;
+    height: 149px;
+    background: #1e1a3b;
+}
+.yb_erwei {
+    position: relative;
+    height: 149px;
+    background: url("../img/yb_picbg.jpg") no-repeat top center;
+}
+.yb_ctxt {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 398px;
+    height: 99px;
+    margin-left: -380px;
+    background: url("../img/yb_codetxt.png") no-repeat;
+}
+.yb_code {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    border: 5px solid #21c1f6;
+    margin-left: 182px;
+    background: url("../img/yb_piccode.jpg") no-repeat;
+}
+/*cooperation部分开始*/
+.cooperation {
+    height: 466px;
+    width: 100%;
+    background: #181818;
+}
+.yb_copcon {
+    padding-top: 74px;
+    height: 392px;
+    margin: 0px auto;
+    max-width: 1900px;
+    background: url("../img/yb_cooperation.jpg") no-repeat;
+}
+.title_h2 {
+    color: #fff;
+    margin-bottom: 60px;
+    position: relative;
+    line-height: 30px;
+    text-align: center;font-size: 28px;
+}
+.title_h2 span {
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    margin-left: -36px;
+    width: 72px;
+    height: 3px;
+    background: #1ba8ed;
+}
+.yb_coptxt {
+    position: relative;
+    width: 1024px;
+    height: 200px;
+    margin: 0 auto;
+    background: url("../img/yb_coptxt.png") no-repeat;
+}
+.yb_coptxt ul li {
+    position: absolute;
+    color: #fff;
+    width: 173px;
+    height: 45px;
+    text-align: center;
+    padding-top: 28px;
+    padding-left: 35px;
+    font-size: 18px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.yb_coptxt ul li em {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+/*.txtarea {*/
+/*background-position: 0 0;*/
+/*}*/
+.yb_coptxt ul li:hover {
+    color: #FA0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.yb_c1 {
+    top: 0px;
+    left: 0px;
+}
+.yb_c1:hover {
+    background: url(../img/yb_coptxt2.png) no-repeat 0px 0;
+}
+.yb_c2 {
+    top: 0px;
+    left: 272px;
+}
+.yb_c2:hover {
+    background: url(../img/yb_coptxt2.png) no-repeat -272px 0;
+}
+.yb_c3 {
+    top: 0px;
+    left: 544px;
+}
+.yb_c3:hover {
+    background: url(../img/yb_coptxt2.png) no-repeat -544px 0;
+}
+.yb_c4 {
+    top: 0px;
+    left: 815px;
+}
+.yb_c4:hover {
+    background: url(../img/yb_coptxt2.png) no-repeat -815px 0;
+}
+.yb_c5 {
+    top: 119px;
+    left: 815px;
+}
+.yb_c5:hover {
+    background: url(../img/yb_coptxt2.png) no-repeat -815px -119px;
+}
+.yb_c6 {
+    top: 119px;
+    left: 544px;
+}
+.yb_c6:hover {
+    background: url(../img/yb_coptxt2.png) no-repeat -544px -119px;
+}
+.yb_c7 {
+    top: 119px;
+    left: 272px;
+}
+.yb_c7:hover {
+    background: url(../img/yb_coptxt2.png) no-repeat -272px -119px;
+}
+.yb_c8 {
+    top: 119px;
+    left: 0px;
+}
+.yb_c8:hover {
+    background: url(../img/yb_coptxt2.png) no-repeat 0 -119px;
+}
+/*.yb_c1 em,.yb_c3 em,.yb_c2 em {*/
+/*top: 23px;*/
+/*left: 218px;*/
+/*background: url("../img/_j_cooperation/yb_hezuo.png") no-repeat 0 0;*/
+/*}*/
+/*.yb_c2 em {*/
+/*top: 23px;*/
+/*left: 490px;*/
+/*}*/
+.yb_c1 em,.yb_c3 em,.yb_c2 em {
+    top: 23px;
+    left: 218px;
+    animation:mymove 1.9s infinite;
+    -webkit-animation:mymove 1.9s infinite;
+    background: url(../img/yb_hezuo.png) no-repeat 0 0;
+}
+
+.yb_c5 em,.yb_c6 em,.yb_c7 em {
+    top: 23px;
+    left: -38px;
+    animation:mymove3 1.9s infinite;
+    -webkit-animation:mymove3 1.9s infinite;
+    background: url(../img/yb_hezuo.png) no-repeat 0 -39px;
+}
+.yb_c4 em {
+    top: 85px;
+    left: 78px;
+    animation:mymove2 1.9s infinite;
+    -webkit-animation:mymove2 1.9s infinite;
+    background: url(../img/yb_hezuo.png) no-repeat 0 -80px;
+}
+/*send-demand部分开始*/
+.send-demand {
+    height: 381px;
+    padding-top: 65px;
+    background: #2f383d;
+}
+.send-demand .title_h2 {
+    color: #fff;
+    margin-bottom: 60px;
+}
+.send-demand .title_h3 {
+    color: #8596a8;
+    font-size: 18px;
+    text-align: center;
+}
+.yb_form {
+    width: 1024px;
+    position: relative;
+    margin: 45px auto 0;
+    background: #fa0;
+}
+.yb_form label {
+    position: absolute;
+    width: 69px;
+    margin-top: 8px;
+    text-align: center;
+    border-right: 1px dotted #4e585d;
+    line-height: 35px;
+    font-size: 18px;
+    color: #8596a8;
+    z-index: 5;
+}
+.yb_form input,.yb_form textarea {
+    position: absolute;
+    z-index: 2;
+    width: 395px;
+    height: 47px;
+    background: url("../img/ybtextarea.jpg") no-repeat;
+    border: 1px solid #4e585d;
+    color: #fff;
+    font-size: 14px;
+    line-height: 45px;
+    padding-left: 85px;
+}
+.yb_name,.yb_lname {
+    top: 0px;left: 0px;
+    text-align: left;
+}
+.yb_form .yb_email,.yb_form .yb_lmail {
+    top: 60px;left: 0px;
+    /*text-align: left;*/
+}
+.yb_email {
+    text-align: left;
+}
+.yb_tel,.yb_ltel {
+    top: 120px;left: 0px;
+    text-align: left;
+
+}
+.yb_ltea {
+    top: 0;
+    right: 414px;
+    height: 98px;
+    text-align: left;
+
+}
+.yb_send {
+    position: absolute;
+    top: 121px;
+    right: 0;
+    width: 485px;
+    height: 47px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 47px;
+    font-weight: bold;
+    background: url("../img/ybsentbtn.png") no-repeat;
+}
+.yb_form textarea {
+    top: 0px;
+    right: 0;
+    line-height: 20px;
+    padding-top: 5px;
+    height: 100px;
+    resize: none;
+    /*-ms-text-align-last: right;*/
+    text-align: left;
+}
+/*结尾*/
+.footerhei {
+    height: 81px;
+    width: 100%;
+    background: #21262a;
+}
+.footerhei h6 {
+    font-size: 14px;
+    color: #4a5261;
+    line-height: 81px;
+    text-align: center;
+    width: 1024px;
+    margin: 0 auto;
+}

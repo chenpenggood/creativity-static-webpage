@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*注意事项和之前一样*/
+
+.banner .bannerbg{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -950px;
+    z-index: 1;
+
+}
+
+#xuph{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    height: 570px;
+    /*background-color: black;*/
+    z-index: 2;
+    overflow: hidden;
+    /*border: 1px solid gray;*/
+}
+
+#xuph1{
+    position: absolute;
+    /*bottom: -107px;*/
+    left: 0;
+    bottom: -600px;
+    z-index: 10;
+}
+
+#xuph2{
+    position: absolute;
+    /*bottom: -107px;*/
+    left: 189px;
+    bottom: -900px;
+    z-index: 5;
+}
+
+.xutext{
+    position: absolute;
+    top:  142px;
+    /*left: 516px;*/
+    left: 1100px;
+}
+
+.xutext h1{
+    height: 46px;
+    font-size: 30px;
+    color: black;
+}
+.xutext h1 span {
+    color: white;
+    font-size: 30px;
+    line-height: 46px;
+    padding: 0 5px;
+    margin-right: 5px;
+    background-color: black;
+}
+
+.xutext h2{
+    color: #656a6e;
+    height: 48px;
+    font-size: 22px;
+    line-height: 48px;
+}
+
+.xutext h3{
+    color: #21c2f8;
+    height: 48px;
+    font-size: 26px;
+    line-height: 48px;
+}
+
+.xutext p{
+    color: #656a6e;
+    width: 470px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.xutext a{
+    display: block;
+    width: 210px;
+    height: 58px;
+    font-size: 18px;
+    line-height: 58px;
+    cursor: pointer;
+    margin-top: 50px;
+    color: white;
+    text-indent: 3em;
+    background: url(../img/hd_btn.png) 0 0 no-repeat
+}

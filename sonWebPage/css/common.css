@@ -1,0 +1,110 @@
+/*header开始*/
+.header  {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ecebeb;
+}
+/*logo部分*/
+.log {
+    width: 100%;
+    height: 88px;
+    background: #ECEEEE;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+/*banner部分开始*/
+.banner {
+    width: 100%;
+    height: 570px;
+    background: #cee0e2;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+/*content部分开始*/
+.content {
+    height: 667px;
+    width: 100%;
+    position: relative;
+}
+/*provide部分开始*/
+.provide {
+    width: 100%;
+    background: #eff4f7;
+    height: 467px;
+}
+/*choice部分开始*/
+.choice {
+    width: 100%;
+    height: 530px;
+    position: relative;
+    background: skyblue;
+}
+/*experience部分开始*/
+.experience {
+    width: 100%;
+    height: 570px;
+    position: relative;
+    background: pink;
+}
+/*case部分开始*/
+.case {
+    width: 100%;
+    height: 918px;
+}
+/*qr_code部分开始*/
+.qr_code {
+    width: 100%;
+    height: 149px;
+    background: #1e1a3b;
+}
+/*cooperation部分开始*/
+.cooperation {
+    height: 466px;
+    width: 100%;
+    background: #181818;
+}
+/*send-demand部分开始*/
+.send_demand {
+    height: 381px;
+    padding-top: 65px;
+    background: #2f383d;
+}
+/*结尾*/
+.footerhei {
+    height: 81px;
+    width: 100%;
+    background: #21262a;
+}
+/*联系我们*/
+/*.yb_conct {*/
+    /*position: fixed;*/
+    /*width: 180px;*/
+    /*height: 224px;*/
+    /*z-index: 9999;*/
+    /*right: -127px;*/
+    /*top: 300px;*/
+    /*cursor: pointer;*/
+    /*background: yellowgreen;*/
+/*}*/
+/*邮箱部分*/
+.foot {
+    width: 319px;
+    height: 41px;
+    position: fixed;
+    bottom: 0px;
+    right: 60px;
+    z-index: 9999;
+    background: skyblue;
+}
+
+
+
+
+
+
+
+
+
